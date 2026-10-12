@@ -1,0 +1,19 @@
+{
+  "name": "mox-bot",
+  "version": "2.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node scripts/download-ytdlp.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "@distube/ytdl-core": "latest",
+    "pino": "^8.0.0",
+    "yt-search": "latest"
+  },
+  "optionalDependencies": {
+    "sharp": "latest",
+    "wa-sticker-formatter": "latest"
+  }
+}
